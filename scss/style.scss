@@ -1,5 +1,13 @@
-@import 'utils/_variables';
-@import 'utils/_mixins';
+@import 'utils/variables';
+@import 'utils/mixins';
 
-@import 'base/_normalize';
-@import 'base/_global';
+@import 'base/normalize';
+@import 'base/global';
+
+@import 'layout/grid';
+@import 'layout/nav';
+@import 'layout/header';
+@import 'layout/about';
+@import 'layout/services';
+
+@import 'components/buttons';
