@@ -40,7 +40,7 @@
             display: inline-block;
             margin-left: 15px;
             text-decoration: none;
-
+            
             i {
                 height: 40px;
                 width: 40px;
@@ -49,6 +49,7 @@
                 border: 1px solid $secondary-color;
                 border-radius: 50%;
                 transition: all .3s;
+                margin-right: 10px;
             }
         }
     }
@@ -92,7 +93,7 @@
             .watch {
                 margin: 0;
             }
-        }    
+        } 
     }
 }
 

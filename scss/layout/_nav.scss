@@ -73,6 +73,7 @@
         .main-nav-holder {
             justify-content: flex-start;
         }
+
         .brand {
             height: 80px;
         }
@@ -89,22 +90,19 @@
             max-width: 100%;
             padding: 0;
             align-self: flex-start;
-           
 
             .menu {
-                background-color: #fff;
-
-                .menu-item {
-                    display: inline-block;
-                    margin: 0 20px;
-                    font-size: initial;
-
-                    a {
-                        color: $secondary-color;
-                        font-weight: 700;
-                    }
-                }    
+                @include menu-list;
             }
+        }
+    }
+    @media all and (max-width: $extra-small) {
+        img {
+            display: none;
+        }
+        .mobile-hamburger {
+            display: flex;
+           
         }
     }
 }
