@@ -96,13 +96,4 @@
             }
         }
     }
-    @media all and (max-width: $extra-small) {
-        img {
-            display: none;
-        }
-        .mobile-hamburger {
-            display: flex;
-           
-        }
-    }
 }
