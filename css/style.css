@@ -857,3 +857,7 @@ select.error {
 textarea {
   height: 100px;
 }/*# sourceMappingURL=style.css.map */
+
+h5 {
+  display: none;
+}
