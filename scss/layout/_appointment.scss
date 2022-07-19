@@ -2,6 +2,11 @@
     padding: 0;
     @include flexbox;
 
+    .container-apointments {
+        display: inline-flex;
+        margin: 0 auto;
+    }
+
     .desktop-background {
         background-size: cover;
         background-repeat: no-repeat;
