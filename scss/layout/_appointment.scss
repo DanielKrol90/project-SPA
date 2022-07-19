@@ -5,6 +5,10 @@
     .container-apointments {
         display: inline-flex;
         margin: 0 auto;
+
+            .header-item {
+                display: none;
+            }
     }
 
     .desktop-background {
